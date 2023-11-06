@@ -21,8 +21,9 @@ export default function About() {
       <p className="mb-3">
         My first introduction with{" "}
         <span className="font-medium">front end technologies </span> was at the
-        internship and that's where I decided I wanted to do this job. After
-        graduating from Izmir University of Economics, Department of
+        internship and here I realized that I want to move forward in this
+        field. After graduating from Izmir University of Economics, Department
+        of
         <span className="font-medium"> Software Engineering</span>, in 2021, I
         tried to improve myself in this field and still I am.{" "}
         <span className="italic">My favorite part of programming</span> is the{" "}
