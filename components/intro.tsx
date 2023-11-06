@@ -8,6 +8,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { TypeAnimation } from "react-type-animation";
 import img from "@/public/berk-karabeyoglu.jpg";
 
 export default function Intro() {
@@ -67,7 +68,15 @@ export default function Intro() {
         <span className="font-bold">1 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is on{" "}
         <br />
-        <span className="underline">React and Vue.js</span>
+        <TypeAnimation
+          sequence={["React", 2000, "Vue.js", 2000]}
+          wrapper="span"
+          speed={10}
+          style={{
+            textDecoration: "underline",
+          }}
+          repeat={Infinity}
+        />
       </motion.h1>
 
       <motion.div
