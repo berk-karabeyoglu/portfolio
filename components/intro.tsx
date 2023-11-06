@@ -9,7 +9,8 @@ import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { TypeAnimation } from "react-type-animation";
-import img from "@/public/berk-karabeyoglu.jpg";
+// import img from "@/public/berk-karabeyoglu.jpg";
+import img2 from "@/public/berk-karabeyogu.jpeg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={img}
+              src={img2}
               alt="Berk Karabeyoglu portrait"
               width="192"
               height="192"

@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        My first introduction with{" "}
+        My first introduction to{" "}
         <span className="font-medium">front end technologies </span> was at the
         internship and here I realized that I want to move forward in this
         field. After graduating from Izmir University of Economics, Department
