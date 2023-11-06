@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <meta name="theme-color" content="#030712" />
+      <Head>
+        <meta name="theme-color" content="#030712" />
+      </Head>
       <body
         className={`${inter.className} bg-gray-50 bg-gradient-to-r from-gray-300 to-gray-50 dark:bg-gradient-to-r dark:from-gray-800 dark:to-gray-950 text-gray-950 relative pt-28 sm:pt-36  dark:text-gray-50 dark:text-opacity-90`}
       >
