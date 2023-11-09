@@ -35,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated University",
+    title: "Front-End Developer",
     location: "Izmir, TR",
     description:
-      "In 2021, I graduated from Izmir University of Economics as a Software Engineer",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021",
+      "For more than 1 year I have been working as a front end developer in another company, I continue to improve myself, learn and enjoy :)",
+    icon: React.createElement(FaReact),
+    date: "2022 - present",
   },
   {
     title: "Front-End Developer",
@@ -51,12 +51,12 @@ export const experiencesData = [
     date: "2021 - 2022",
   },
   {
-    title: "Front-End Developer",
+    title: "Graduated University",
     location: "Izmir, TR",
     description:
-      "For more than 1 year I have been working as a front end developer in another company, I continue to improve myself, learn and enjoy :)",
-    icon: React.createElement(FaReact),
-    date: "2022 - present",
+      "In 2021, I graduated from Izmir University of Economics as a Software Engineer",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
   },
 ] as const;
 
@@ -82,7 +82,7 @@ export const projectsData = [
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["Vue3.js", "Vuetify", "Easy Data Table"],
-    href: "",
+    href: "https://manage.depodone.com/login",
     imageUrl: depodoneManagementImg,
   },
 ] as const;

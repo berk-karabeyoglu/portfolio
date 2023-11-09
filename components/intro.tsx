@@ -9,7 +9,6 @@ import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { TypeAnimation } from "react-type-animation";
-// import img from "@/public/berk-karabeyoglu.jpg";
 import img2 from "@/public/berk-karabeyogu.jpeg";
 
 export default function Intro() {
@@ -42,7 +41,6 @@ export default function Intro() {
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
