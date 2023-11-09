@@ -13,8 +13,8 @@ import {
 import { Tailwind } from "@react-email/tailwind";
 
 type ContactFormEmailProps = {
-  message: string | null;
-  senderEmail: string | null;
+  message: string | null | undefined;
+  senderEmail: string | null | undefined;
 };
 
 export default function ContactFormEmail({
