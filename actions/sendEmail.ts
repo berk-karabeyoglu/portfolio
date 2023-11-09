@@ -23,7 +23,7 @@ export const sendEmail = async (formData: FormData) => {
     };
   }
 
-  let data;
+  let data: Object | null | undefined;
   try {
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
