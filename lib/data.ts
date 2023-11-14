@@ -38,15 +38,14 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Izmir, TR",
     description:
-      "For more than 1 year I have been working as a front end developer in another company, I continue to improve myself, learn and enjoy :)",
+      "I have been working as a front-end developer in DepoDone for over a year now and I continue to improve myself, learn and enjoy :)",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
   {
     title: "Front-End Developer",
     location: "Izmir, TR",
-    description:
-      "I worked as a front end developer in a global company for a few months.",
+    description: "I worked as a front-end developer in EPAM for a few months.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
@@ -54,7 +53,7 @@ export const experiencesData = [
     title: "Graduated University",
     location: "Izmir, TR",
     description:
-      "In 2021, I graduated from Izmir University of Economics as a Software Engineer",
+      "In 2021, I graduated from Izmir University of Economics as a Software Engineer.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
@@ -72,7 +71,7 @@ export const projectsData = [
   {
     title: "Order Panel",
     description:
-      "A panel where customers can manage their orders from start to finish. It has many features such as language options, filtering and pagination.",
+      "This panel allows you to keep track of the products, orders and shipments, thus letting you have full supervision over all of the processes.",
     tags: ["Vue3.js", "Vuetify", "i18n", "Easy Data Table"],
     href: "https://panel.depodone.com/",
     imageUrl: depodonePanelImg,
@@ -80,7 +79,7 @@ export const projectsData = [
   {
     title: "Management Panel",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "A panel where customers can fully manage their orders. It has many features such as language options, filtering and pagination.",
     tags: ["Vue3.js", "Vuetify", "Easy Data Table"],
     href: "https://manage.depodone.com/login",
     imageUrl: depodoneManagementImg,

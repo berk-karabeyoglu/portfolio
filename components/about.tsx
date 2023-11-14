@@ -20,16 +20,16 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         My first introduction to{" "}
-        <span className="font-medium">front end technologies </span> was at the
+        <span className="font-medium">front end technologies </span> was my the
         internship and here I realized that I want to move forward in this
         field. After graduating from Izmir University of Economics, Department
         of
-        <span className="font-medium"> Software Engineering</span>, in 2021, I
-        tried to improve myself in this field and still I am.{" "}
+        <span className="font-medium"> Software Engineering</span> in 2021, I've
+        been improving myself in this field ever since.{" "}
         <span className="italic">My favorite part of programming</span> is the{" "}
         <span className="font-medium">problem-solving aspect.</span> I{" "}
         <span className="underline">love</span> the feeling of finally figuring
-        out a solution to a problem. My core stack is is{" "}
+        out a solution to a problem. My core stack is{" "}
         <span className="font-medium">
           React.js, Vue.js. I'm also familiar with TypeScript and TailwindCSS.{" "}
         </span>
