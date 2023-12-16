@@ -81,7 +81,7 @@ export const projectsData = [
     description:
       "A panel where customers can fully manage their orders. It has many features such as language options, filtering and pagination.",
     tags: ["Vue3.js", "Vuetify", "Easy Data Table"],
-    href: "https://manage.depodone.com/login",
+    href: "https://backoffice.depodone.com/auth/login",
     imageUrl: depodoneManagementImg,
   },
 ] as const;
