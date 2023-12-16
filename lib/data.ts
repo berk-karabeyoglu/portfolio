@@ -79,7 +79,7 @@ export const projectsData = [
   {
     title: "Management Panel",
     description:
-      "A panel where customers can fully manage their orders. It has many features such as language options, filtering and pagination.",
+      "A panel where customers can fully manage their orders. It has many features such as filtering, pagination and more...",
     tags: ["Vue3.js", "Vuetify", "Easy Data Table"],
     href: "https://backoffice.depodone.com/auth/login",
     imageUrl: depodoneManagementImg,
