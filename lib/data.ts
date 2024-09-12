@@ -64,7 +64,7 @@ export const projectsData = [
     title: "Introduction Site",
     description:
       "This website was my first real project and I completed it on my own from start to finish, so I don't think I'll ever forget it :)",
-    tags: ["React", "TailwindCSS", "Framer"],
+    tags: ["Next.js", "TailwindCSS", "Framer"],
     href: "https://depodone.com/",
     imageUrl: depodoneWebsiteImg,
   },
