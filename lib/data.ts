@@ -1,10 +1,10 @@
+import depodoneManagementImg from "@/public/depodone-manage.png";
+import depodonePanelImg from "@/public/depodone-panel.png";
+import depodoneWebsiteImg from "@/public/depodone-website.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import depodoneWebsiteImg from "@/public/depodone-website.png";
-import depodonePanelImg from "@/public/depodone-panel.png";
-import depodoneManagementImg from "@/public/depodone-manage.png";
 
 export const links = [
   {
@@ -69,7 +69,7 @@ export const projectsData = [
     imageUrl: depodoneWebsiteImg,
   },
   {
-    title: "Order Panel",
+    title: "Supplier Panel",
     description:
       "This panel allows you to keep track of the products, orders and shipments, thus letting you have full supervision over all of the processes.",
     tags: ["Vue3.js", "Vuetify", "i18n", "Easy Data Table"],
