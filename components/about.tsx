@@ -19,28 +19,31 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        My first introduction to{" "}
-        <span className="font-medium">front end technologies </span> was my the
-        internship and here I realized that I want to move forward in this
-        field. After graduating from Izmir University of Economics, Department
-        of
-        <span className="font-medium"> Software Engineering</span> in 2021, I've
-        been improving myself in this field ever since.{" "}
-        <span className="italic">My favorite part of programming</span> is the{" "}
-        <span className="font-medium">problem-solving aspect.</span> I{" "}
-        <span className="underline">love</span> the feeling of finally figuring
-        out a solution to a problem. My core stack is{" "}
+        My journey with{" "}
+        <span className="font-medium">front-end technologies </span> began
+        during my internship, where I discovered my passion for this field.
+        After graduating from the Department of
+        <span className="font-medium"> Software Engineering</span> at Izmir
+        University of Economics in 2021, I have been continuously working to
+        enhance my skills and knowledge.
+        <span className="italic">
+          My favorite aspect of programming
+        </span> is <span className="font-medium">problem-solving.</span> I{" "}
+        <span className="underline">enjoy</span> the sense of accomplishment
+        that comes with finally finding a solution to a challenge. My primary
+        stack includes{" "}
         <span className="font-medium">
-          React.js, Vue.js. I'm also familiar with TypeScript and TailwindCSS.{" "}
+          React.js and Vue.js, with experience in TypeScript, Next.js and
+          TailwindCSS.{" "}
         </span>
-        I'm always excited to learn new things. I currently work as a front-end
-        developer.
+        I am always eager to learn new technologies and improve my skills.
+        Currently, I work as a front-end developer.
       </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        games, watching movies, going for a walk with my headphones on and{" "}
-        <span className="italic">trying/learning</span> new things.
+        <span className="italic">Outside of coding,</span> I enjoy playing
+        games, watching movies, going for walks with my headphones on, and
+        always <span className="italic">trying out</span> new things and
+        expanding my knowledge.
       </p>
     </motion.section>
   );

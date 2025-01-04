@@ -62,13 +62,20 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Berk.</span> I'm a{" "}
+        <span className="font-bold">Hi, I'm Berk,</span> a{" "}
         <span className="font-bold">front-end developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is on{" "}
-        <br />
+        <span className="font-bold">over 2 years</span> of experience in
+        creating{" "}
+        <span className="italic">
+          dynamic and user-friendly websites and applications.
+        </span>
+        <span className="">
+          {" "}
+          I’m passionate about building intuitive, high-quality digital
+          experiences, with expertise in
+        </span>{" "}
         <TypeAnimation
-          sequence={["React", 2000, "Vue.js", 2000]}
+          sequence={["React.js", 2000, "Vue.js", 2000]}
           wrapper="span"
           speed={10}
           style={{
@@ -77,7 +84,6 @@ export default function Intro() {
           repeat={Infinity}
         />
       </motion.h1>
-
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
