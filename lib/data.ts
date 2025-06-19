@@ -72,7 +72,7 @@ export const projectsData = [
     title: "Supplier Panel",
     description:
       "This panel allows you to keep track of the products, orders and shipments, thus letting you have full supervision over all of the processes.",
-    tags: ["Vue3.js", "Vuetify", "i18n", "Easy Data Table"],
+    tags: ["Vue3.js", "TypeScript", "i18n", "Easy Data Table"],
     href: "https://panel.depodone.com/",
     imageUrl: depodonePanelImg,
   },
@@ -80,24 +80,24 @@ export const projectsData = [
     title: "Management Panel",
     description:
       "A panel where customers can fully manage their orders. It has many features such as filtering, pagination and more...",
-    tags: ["Vue3.js", "Vuetify", "Easy Data Table"],
+    tags: ["Vue3.js", "TypeScript", "Vuetify", "Easy Data Table"],
     href: "https://backoffice.depodone.com/auth/login",
     imageUrl: depodoneManagementImg,
   },
 ] as const;
 
 export const skillsData = [
+  "React.js",
+  "Next.js",
+  "Vue.js",
+  "TypeScript",
+  "TailwindCSS",
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
+  "Vuetify",
   "Node.js",
   "Git",
   "Framer Motion",
-  "Vue.js",
-  "Vuetify",
-  "TailwindCSS",
   "Object-Oriented Programming",
 ] as const;
