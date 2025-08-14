@@ -36,7 +36,7 @@
   "devDependencies": {
     "@types/react-vertical-timeline-component": "^3.3.3"
   },
-  "description": "Showcasing my skills and creativity as a front-end developer through my personal portfolio website.",
+  "description": "Showcasing my skills and creativity as a full stack developer through my personal portfolio website.",
   "main": "next.config.js",
   "directories": {
     "lib": "lib"

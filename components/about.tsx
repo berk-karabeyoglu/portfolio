@@ -37,7 +37,7 @@ export default function About() {
           TailwindCSS.{" "}
         </span>
         I am always eager to learn new technologies and improve my skills.
-        Currently, I work as a front-end developer.
+        Currently, I work as a full stack developer.
       </p>
       <p>
         <span className="italic">Outside of coding,</span> I enjoy playing
