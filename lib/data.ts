@@ -1,6 +1,8 @@
 import depodoneManagementImg from "@/public/depodone-manage.png";
 import depodonePanelImg from "@/public/depodone-panel.png";
 import depodoneWebsiteImg from "@/public/depodone-website.png";
+import aiPlatformImg from "@/public/ai-platform.png";
+import paltivityImg from "@/public/paltivity.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -35,18 +37,18 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Developer",
+    title: "Full Stack Developer",
     location: "Izmir, TR",
     description:
-      "I have been working as a full stack developer in DepoDone for over a year now and I continue to improve myself, learn and enjoy :)",
+      "Built the company's website from scratch using React.js and Next.js. Developed two large-scale management panels — a Supplier Panel and a Management Panel — using Vue.js, enabling end-to-end control of orders and shipments.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2022 - 2025",
   },
   {
-    title: "Front-End Developer",
+    title: "Jr. Software Engineer",
     location: "Izmir, TR",
     description:
-      "I worked as a Jr. Software Engineer in EPAM for a few months.",
+      "Contributed to a CMS project and completed a two-month intensive frontend-focused training program.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
@@ -61,6 +63,22 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "AI Image Platform",
+    description:
+      "A SaaS platform for AI-powered image generation with user auth and a credit system.",
+    tags: ["Next.js", "Supabase", "TypeScript", "Tailwind CSS"],
+    href: "https://ai-platform-5n5x.vercel.app/",
+    imageUrl: aiPlatformImg,
+  },
+  {
+    title: "Paltivity",
+    description:
+      "A social app to discover and join nearby events with real-time chat and notifications.",
+    tags: ["React Native", "Expo", "Supabase", "TypeScript"],
+    href: "",
+    imageUrl: paltivityImg,
+  },
   {
     title: "Introduction Site",
     description:
@@ -103,6 +121,9 @@ export const skillsData = [
   "Nuxt.js",
   "Node.js",
   "Git",
+  "React Native",
+  "Expo",
+  "Supabase",
   "Framer Motion",
   "Object-Oriented Programming",
 ] as const;

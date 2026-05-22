@@ -37,7 +37,10 @@ export default function About() {
           TailwindCSS.{" "}
         </span>
         I am always eager to learn new technologies and improve my skills.
-        Currently, I work as a full stack developer.
+        Recently, I've been exploring{" "}
+        <span className="font-medium">mobile development</span> with React
+        Native and building{" "}
+        <span className="font-medium">AI-powered platforms</span> from scratch.
       </p>
       <p>
         <span className="italic">Outside of coding,</span> I enjoy playing

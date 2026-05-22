@@ -37,12 +37,14 @@ export default function Project({
           <h3 className="text-2xl font-semibold flex items-center gap-2">
             {title}
 
-            <a href={href} target="_blank" className="sm:visible md:hidden">
-              <AiOutlineExport
-                size={20}
-                className="opacity-70 transition-all cursor-pointer mt-[0.5]"
-              />
-            </a>
+            {href && (
+              <a href={href} target="_blank" className="sm:visible md:hidden">
+                <AiOutlineExport
+                  size={20}
+                  className="opacity-70 transition-all cursor-pointer mt-[0.5]"
+                />
+              </a>
+            )}
           </h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
@@ -59,7 +61,7 @@ export default function Project({
           </ul>
         </div>
 
-        <a href={href} target="_blank">
+        <a href={href || undefined} target={href ? "_blank" : undefined}>
           <Image
             src={imageUrl}
             alt="Project I worked on"

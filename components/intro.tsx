@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
 
@@ -64,7 +65,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I'm Berk,</span> a{" "}
         <span className="font-bold">full stack developer</span> with{" "}
-        <span className="font-bold">more than 3 years</span> of experience in
+        <span className="font-bold">more than 4 years</span> of experience in
         creating{" "}
         <span className="italic">
           dynamic and user-friendly websites and applications.
@@ -121,13 +122,13 @@ export default function Intro() {
           <BsLinkedin />
         </a>
 
-        {/* <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+        <a
+          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://github.com/berk-karabeyoglu"
           target="_blank"
         >
           <FaGithubSquare />
-        </a> */}
+        </a>
       </motion.div>
     </section>
   );
