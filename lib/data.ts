@@ -38,6 +38,16 @@ export const links = [
 export const experiencesData = [
   {
     title: "Full Stack Developer",
+    company: "Mall Logistics",
+    location: "Remote, TR",
+    description:
+      "Developing the store side of a loyalty program for shopping malls using React Native for mobile. Also building mall and store management interfaces on the web using React.",
+    icon: React.createElement(FaReact),
+    date: "2026 - present",
+  },
+  {
+    title: "Full Stack Developer",
+    company: "DepoDone",
     location: "Izmir, TR",
     description:
       "Built the company's website from scratch using React.js and Next.js. Developed two large-scale management panels — a Supplier Panel and a Management Panel — using Vue.js, enabling end-to-end control of orders and shipments.",
@@ -46,6 +56,7 @@ export const experiencesData = [
   },
   {
     title: "Jr. Software Engineer",
+    company: "EPAM Systems",
     location: "Izmir, TR",
     description:
       "Contributed to a CMS project and completed a two-month intensive frontend-focused training program.",
@@ -54,6 +65,7 @@ export const experiencesData = [
   },
   {
     title: "Graduated University",
+    company: "Izmir University of Economics",
     location: "Izmir, TR",
     description:
       "In 2021, I graduated from Izmir University of Economics as a Software Engineer.",
